@@ -1,0 +1,365 @@
+/* All element edits */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* edit body css */
+body{
+    background-color: hsl(215.29deg 100% 96.67%);
+}
+
+/* edit header css */
+header{
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    width: 65%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px -11px black;
+}
+
+/* edit nav css */
+nav{
+    background-image: url(../assets/images/bg-sidebar-desktop.svg);
+    background-size: cover;
+    background-position: bottom;
+    height: 540px;
+    margin: 5% 2%;
+    border-radius: 10px;
+}
+
+/* edit all div p , h1 , p css */
+#step1 ,#step2 , #step3 , #step4 {
+    
+    display: flex;
+    
+}
+
+#step2 , #step3 , #step4{
+    
+    margin-top: 4.5%;
+
+}
+
+/* edit text h1 , p css */
+#step1 div ,#step2 div , #step3 div , #step4 div {
+
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 200px;
+}
+
+/* edit h1 in nav css */
+nav h1 {
+ 
+    color: hsl(240.59deg 94.39% 79.02%);
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+/* edit all nav hight  */
+#div_nav{
+    
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 15%;
+    
+}
+
+nav p:nth-child(1){
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 100%;
+    padding: 3px 10px;
+    height: 30px;
+    margin-left: 7%;
+}
+
+nav p:nth-child(2){
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;    
+    margin-top: -6%;
+}
+
+/* edit background and color step 1  */
+#step2 p:nth-child(1){
+    
+    background-color: hsl(204.59deg 88.41% 86.47%);
+    color: black;
+}
+
+/* ----------------------------------- */
+main{
+
+    margin: auto;
+    width: 80%;
+    color: hsl(211.58deg 58.76% 19.02%);
+}
+
+main h1{
+
+    font-weight: bolder;
+    margin-top: 13%;
+    font-size: 30px;
+}
+
+main p{
+
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(230deg 4.48% 73.73%);
+
+}
+
+#next{
+
+    position:absolute;
+    bottom: 4%;
+    right: 10%;
+    display: block;
+    color: white;
+    margin-top: 10%;
+    float: right;
+    width: 22.5%;
+    background-color: hsl(213.79deg 93.55% 18.24%);
+    border-radius: 10px;
+    padding: 2% 0% 2% 6%;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#next:hover{
+
+    color: white;
+    background-color: hsl(213.45deg 70.19% 31.57%);
+
+}
+
+#back{
+
+    position:absolute;
+    bottom: 6%;
+    left: 14%;
+    float: left;
+    display: block;
+    color: hsl(240deg 5.41% 70.98%);
+    margin-top: 11%;
+
+}
+
+#back:hover{
+
+    color: hsl(213.79deg 93.55% 18.24%);
+
+}
+
+#arcade , #pro , #advanced{
+    width: 30%;
+    border: solid hsl(245.45deg 33.62% 44.9%) 1px;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#pro , #advanced{
+
+    border: solid hsl(252deg 6.85% 85.69%) 1px;
+    border-radius: 10px;
+    
+}
+
+#pro:hover , #advanced:hover{
+    
+    border: solid hsl(245.45deg 33.62% 44.9%) 1px;
+    border-radius: 10px;
+    
+}
+
+#arcade img , #pro img , #advanced img{
+    margin-top: 15%;
+    width: 33%;
+    margin-bottom: 40%;
+}
+
+#arcade h4 , #pro h4 , #advanced h4{
+    
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+#arcade p:nth-last-child(1) , #pro p:nth-last-child(1) , #advanced p:nth-last-child(1) {
+    display: none;
+    color: hsl(211.58deg 58.76% 19.02%);
+
+}
+
+/* ------------------------------------------------------ */
+#circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+    padding: 0% 25%;
+    margin-top: 10%;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(230deg 100% 98.75%);
+    padding-top: 3%;
+    padding-left: 18%;
+}
+
+#circle div{
+    display: block;
+    background-color: hsl(213.79deg 93.55% 18.24%);
+    border-radius: 20px;
+    height: 0%;
+    padding: 0% 10% 0% 3%;
+    cursor: pointer;
+}
+
+#circle p:nth-child(1){
+
+    color: hsl(213.79deg 93.55% 18.24%);
+
+}
+
+@media only screen and (max-width:500px){
+
+    body{
+        background-color: white;
+        height: 844px;
+    }
+    header{
+        height: 760px;
+        width: 100%;
+        margin: 0;
+        padding: 0% 0%;
+        background-color: hsl(215.29deg 100% 96.67%);
+    }
+
+    #step1 div{
+        display: none;
+    }
+    
+    #step2 div{
+        display: none;
+    }
+    
+    #step3 div{
+        display: none;
+    }
+    
+    #step4 div{
+        display: none;
+    }
+
+    #div_nav{
+        /* margin: auto; */
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: end;
+        padding-top: 10%;
+        margin-left: 13%;
+    }
+
+    nav{
+        background-image: url(../assets/images/bg-sidebar-mobile.svg);
+        margin-left: -12px;
+        width: 106.5%;
+        margin-top: 0px;
+        border-radius: 0;
+        height: 196%;
+    }
+
+    main{
+        height: 570px;
+        margin: auto;
+        width: 98%;
+        background-color: white;
+        padding: 1% 6% 11%;
+        border-radius: 10px;
+        margin-top: 6%;
+    }
+
+    #step1, #step2, #step3, #step4 {
+    display: flex;
+    margin-left: 8%;
+    }
+
+    nav p:nth-child(1) {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 100%;
+    padding: 3px 15px;
+    height: 45px;
+    margin-left: 0%;
+    }
+
+    #arcade, #pro, #advanced{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0% 75% 0% 0%;
+
+    }
+
+
+    #next{
+
+        position: absolute;
+        margin: 0;
+        /* bottom: 0; */
+        /* background-color: white; */
+        right: 10%;
+        padding: 3% 0% 9% 7%;
+        width: 30%;
+        top: 110.5%;       
+    }
+
+    #back{
+        bottom: -16.5%;
+        left: 11%;
+    }
+    
+    #arcade img, #pro img, #advanced img{
+        width: 55%;
+        margin: 30% 24%;
+        
+    }
+
+    #arcade div, #pro div, #advanced div{
+        margin-top: 27%;
+    }
+    
+    #arcade p:nth-last-child(1), #pro p:nth-last-child(1), #advanced p:nth-last-child(1){
+
+        margin-top: -10px;
+        font-size: 7.3px;
+        
+    }
+    
+
+}
